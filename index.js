@@ -1,4 +1,4 @@
-let controller = new AbortController();const abort = () => controller.abort();
+let controller = new AbortController(); const abort = () => controller.abort();
 function App() {
   const [url, setUrl] = useState();
   const [loading, setLoading] = useState(false);
